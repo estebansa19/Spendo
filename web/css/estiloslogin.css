@@ -1,0 +1,50 @@
+*{
+    font-family: Arial;
+    margin: 0;
+}
+#header{
+	width: 100%;
+	height: 60px;
+	padding-top: 6px;
+	color: white;
+	background-color: #2E2E2E;
+	position: fixed;
+	font-size: 40px;
+	font-family: monospace;
+}
+.input {
+    width: 30%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+#boton{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+}
+#boton:hover {
+    opacity:1;
+}
+#form{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.font{
+    font-size: 20px;
+}
+#header span{
+    padding-top: 15px;
+}
